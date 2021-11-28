@@ -1,47 +1,45 @@
-# Project 2 - Interactive Full Stack Application
-> As a group, create a project that integrates front-end knowledge as well as back-end knowledge
----
+# Carbon Watchers
+
+
 ### Table of Contents
 - [Introduction](#introduction)
 - [Description](#description)
-- [Challenges](#challenges)
-- [Victories](#victories)
+- [Technology](#technology)
 - [Resources](#resources)
 
 ---
 ## Introduction 
-This Project's goal was to create an app that uses both front-end technology as well as a back-end technology giving us a finished product of a full-stack application
+
+This application was created as a group in my schooling. It is a full stack application incorporating a backend and frontend. It uses real time calucating to give up-to-date counters showing carbon emission numbers
+
+--- 
 
 ## Description
 
-> Project 2 - Carbon Watchers
-
-For our second project our group decided to build off of Ryan's project 1. With access to our site, you will have the ability to see the total carbon emissions for many different avenues, as well as create an account and put in your specific information for your personal calculated carbon emissions.
-
-We originally decided to break up the roles into front-end and back-end. We had assigned Ryan and Kelley to worry about the back-end and Keissa and Jacek to worry about the front-end. Luckily for our group Ryan is a very knowledgeable classmate and he ended up really helping each of us out on all different points. 
-
-
+Rising global emssions are a huge problem in our world right now. Knowing just how much your everday activities  contibute to this issue might help us feel a little more accountable for our actions everyday. This application gives you a raw look at what the world is experiencing right now as a whole, as well as gives you the ability to be able to login and submit your own information and find out specified carbon emissions for you.
 
 ---
 
-## Challenges
+## Technology
 
-We ran into a facet of challenges throughout this project. We started with a really robust code base that was strictly front-end. We thought this might help us out in the code writing process but it actually seemed to do the opposite. It was a massive hurdle for us to be able to get the front end organized in a way that would communicate efficently to the back-end that we had added on. We also had the challenge of breaking the original HTML up and seperating it into functional handlebars. All in all we made it work and ended up with a functioning app. This isnt to say that if we could start from scratch we would have cleaned up our code much more and refractored more where we could. 
+- Axios
+- Express
+- Express Session
+- Bcrypt
+- Dotenv
+- Handlebars
+- MySQL 2
+- Sequelize
 
----
-## Victories
-
-The initial set up of the actual database for the user information was very quick to get functioning on its own through insomnia core, however getting it to function on the page itself with the front-end posed a whole other set of challenges.
-Ryan was able to come up with the math and code to be able to succesfully track a single persons carbon emissions by their inputed information. This project taught us a lot of troubleshooting and problem solving and how to get around things when you already have a code base in place. All in all it was a success to get it WORKING!
 
 ---
 
 
 ## Resources 
 
-<a href="https://github.com/ryma1738/Carbon_Watchers">GitHub Repo</a>
 
 <a href="https://carbonwatchers.herokuapp.com/"> Heroku</a>
+- https://carbonwatchers.herokuapp.com/
 
 
 
